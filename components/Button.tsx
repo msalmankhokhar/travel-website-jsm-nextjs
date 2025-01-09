@@ -5,7 +5,7 @@ interface ButtonProps{
     type: 'button' | 'submit';
     title: string;
     icon?: string;
-    variant: 'btn_green' | 'btn_dark_green' | 'btn_white_text'
+    variant: string;
 }
 
 export default function Buttton( {type, title, icon, variant} : ButtonProps ) {
